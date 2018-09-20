@@ -1,0 +1,78 @@
+body {
+    overflow: hidden;
+}
+::-webkit-scrollbar
+{
+    width: 6px;
+    height: 6px;
+    background-color: #F5F5F5;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #FFF;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #AAA;
+}
+#root {
+    height: 100%;
+}
+
+.root-wrap {
+    width: 100%;
+    height: 100%;
+}
+
+div[data-reactroot] {
+    height: 100%;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+    visibility: hidden;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+.buttonCommon{
+    height:38px;
+    margin-right: 15px;
+}
+
+.ant-btn-primary{
+    background-color: rgb(32,160,255) !important;
+    border-color: transparent !important;
+}
+.ant-btn-primary:hover{
+    background-color:lightskyblue;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .8);
+    opacity: 0.9;
+}
+.ant-btn-primary:active{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .8);
+    background-color: rgb(9,109,217) !important;
+    opacity: 1 !important;
+    border-color: transparent !important;
+}
+

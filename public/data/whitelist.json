@@ -1,0 +1,23 @@
+{
+  "head":{
+    "code":"00000000",
+    "msg":"成功",
+    "time":"2016-11-15 15:29:32",
+    "status":"Y"
+  },
+  "body":[{
+    "number": 1,
+    "appcode": "xq-17dz-finance-war",
+    "appname": "小企业-亿企代帐-财务中心-war",
+    "department": "小企业",
+    "person": "王志宏",
+    "relation": "ServiceOwner"
+  },{
+    "number": 2,
+    "appcode": "xq-17dz-finance-war",
+    "appname": "小企业-亿企代帐-财务中心-war",
+    "department": "小企业",
+    "person": "王志宏",
+    "relation": "ServiceOwner"
+  }]
+}
