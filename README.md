@@ -11,5 +11,5 @@
 	npm install zcmui
 	npm install antd-css-rewrite
 4、npm start
-5、地址栏输入：http://localhost:8888 
+5、地址栏输入：http://localhost:8889 
 ```
